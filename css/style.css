@@ -1,0 +1,85 @@
+@font-face {
+    font-family: punch;
+    src: url(../mickey/MICKEY.TTF);
+}
+
+@font-face {
+    font-family: punch2;
+    src: url(../mickey/Minnie.TTF);
+}
+
+
+.container {
+  margin: 150px auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: blue;
+  height: 200px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-family: punch;
+  font-size: 80px;
+}
+
+.item {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  height: 70px;
+  font-family: punch2;
+}
+
+.border {
+  border-style: solid;
+  border: 10px solid red;
+}
+
+.punch-container {
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background-color: red;
+  height: 400px;
+  width: 50%;
+  border-radius: 5px;
+}
+
+#item-punch {
+  height: 350px;
+  width: 300px;
+}
+
+.fist-active {
+  display: block;
+}
+
+.fist-inactive {
+  display: none
+}
+
+.question-inactive {
+  display: none;
+}
+
+.question-active {
+  display: block;
+}
+
+.img-inactive {
+  display: none;
+}
+
+.img-active {
+  display: block;
+}
